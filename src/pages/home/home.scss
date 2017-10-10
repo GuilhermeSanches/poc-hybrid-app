@@ -3,9 +3,13 @@ page-home {
         background-image: url("../assets/images/background.jpg");
         text-align: center;
         justify-content: center;
+        .scroll-content{
+            padding: 8px !important;
+        }
     }
     ion-item{
         background: transparent !important;
+        padding-left: 8px !important;
     }
     ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
         color:    white !important;
@@ -17,6 +21,8 @@ page-home {
     input{
         color: white;
         margin-bottom: 0px !important;
+        margin-left: 0 !important;
+        font-size: 18px;
     }
     .signup-button{
         color: #FF4081;
@@ -32,6 +38,8 @@ page-home {
         display: flex;
         width: 100%;
         padding-left: 20px;
+        text-align: right;
+        justify-content: flex-end;
     }
     .button-signin{
         margin-left: 30px;

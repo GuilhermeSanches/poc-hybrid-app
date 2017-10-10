@@ -1,4 +1,4 @@
-<ion-content padding>
+<ion-content>
     <ion-list class="list-home">
         <img src="assets/images/logo_sw.png" alt="">
           <ion-item>
@@ -7,7 +7,7 @@
           <ion-item>
             <ion-input placeholder="Senha" type="password"></ion-input>
           </ion-item>
-          <ion-label class="label-signup">Não possui conta ? <span class="signup-button">Registre-se</span>
+          <ion-label class="label-signup">Não possui conta ? <span tappable (click)="openSignup()" class="signup-button">Registre-se</span>
             <button class="button-signin" ion-button>ENTRAR</button>
           </ion-label>
         </ion-list>

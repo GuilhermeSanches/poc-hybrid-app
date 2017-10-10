@@ -1,0 +1,20 @@
+page-signup{
+    .btn-signup{
+        margin-left: calc(100% - 100px);
+        background-color: #000;
+        color: white;
+        border-radius: 0;
+        margin-top: 16px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .toolbar-background-md{
+        background: #000 !important;
+    }
+    .toolbar-title-md{
+        color: #fff !important;
+    }
+    ion-item{
+        padding-left: 0 !important;
+    }
+}
