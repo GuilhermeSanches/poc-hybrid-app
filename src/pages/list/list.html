@@ -1,6 +1,11 @@
 <ion-header >
     <ion-navbar hideBackButton="true">
       <ion-title>Home</ion-title>
+      <ion-buttons end>
+            <button ion-button icon-only>
+              <ion-icon name="more" style="color: white"></ion-icon>
+            </button>
+          </ion-buttons>
     </ion-navbar>
   </ion-header>
 
@@ -11,7 +16,7 @@
             <ion-avatar item-start>              
               <p class="avatar-image">{{formatImage(movie.title)}}</p>
             </ion-avatar>
-            <h2>{{movie.title}}</h2>
+            <h3>{{movie.title}}</h3>
             <p><span class="span-director">{{movie.director}}</span><span class="span-date">{{formatData(movie.release_date)}}</span></p>            
         </ion-item>         
     </ion-list>
