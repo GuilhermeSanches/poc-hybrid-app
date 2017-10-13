@@ -15,6 +15,14 @@ page-signup{
         color: #fff !important;
     }
     ion-item{
-        padding-left: 0 !important;
+        font-size: 18px !important;
+        padding-left: 0 !important;        
+    }
+    input{
+        margin-bottom: 4px !important;
+        margin-top: 4px !important;
+    }
+    button.activated{
+        background-color: #000000 !important;
     }
 }

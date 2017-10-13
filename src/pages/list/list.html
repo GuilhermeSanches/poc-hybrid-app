@@ -1,0 +1,18 @@
+<ion-header >
+    <ion-navbar hideBackButton="true">
+      <ion-title>Home</ion-title>
+    </ion-navbar>
+  </ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <img class="image-top" src="assets/images/logo_sw.png" width="60%" alt="SW_IMAGE">
+        <ion-item *ngFor="let movie of movies">
+            <ion-avatar item-start>              
+              <p class="avatar-image">{{formatImage(movie.title)}}</p>
+            </ion-avatar>
+            <h2>{{movie.title}}</h2>
+            <p><span class="span-director">{{movie.director}}</span><span class="span-date">{{formatData(movie.release_date)}}</span></p>            
+        </ion-item>         
+    </ion-list>
+</ion-content>

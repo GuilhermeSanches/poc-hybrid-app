@@ -3,12 +3,12 @@
         <img src="assets/images/logo_sw.png" alt="">
           <ion-item>
             <ion-input placeholder="E-mail" type="email" value=""></ion-input>
-          </ion-item>
+          </ion-item>          
           <ion-item>
             <ion-input placeholder="Senha" type="password"></ion-input>
           </ion-item>
           <ion-label class="label-signup">Não possui conta ? <span tappable (click)="openSignup()" class="signup-button">Registre-se</span>
-            <button class="button-signin" ion-button>ENTRAR</button>
+            <button (click)="openListPage()" class="button-signin" ion-button>ENTRAR</button>
           </ion-label>
         </ion-list>
 </ion-content>
